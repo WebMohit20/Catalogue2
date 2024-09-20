@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/main.css"> 
+    <title>Recipe Catalogue</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header-nav">
+            <div class="logo-nav"></div>
+            <div class="nav">
+                <div class="nav-bar">
+                    <a href="#" >Home</a>
+                    <a href="#">Explore</a>
+                    <a href="#">Help</a>
+                </div>
+                <div class="user-logo-nav">
+                    <img src="/images/Ellipse 2.png" alt="user">
+                </div>
+            </div>
+        </div>
+        <div class="quote-container">
+            <div class="quote">
+                <div class="quote-text">
+                    <span class="text-trend">Trending Now</span>
+                    <span class="text-dish">Mike's famous salad </span>
+                    <span class="text-dish">with cheese</span>
+                    <span class="text-name">By John Mike</span>
+                </div>
+            </div>
+        </div>
+        <div class="search-text">Search for Recipe</div>
+        <div class="search-bar">
+            <img src="images/search 1.png" alt="search">
+            <input type="text" id="search" name="search" placeholder="Search for recipes...">
+            <button type="button" class="search-btn"></button>
+        </div>
+        <div class="options">
+            <div class="all-recipe">All Recipes<img src="/images/Path.png"></div>
+            <div class="veg">Veg Recipes Only<img src="/images/Path.png"> </div>
+            <div class="non-veg">Non Veg Recipes<img src="/images/Path.png"></div>
+        </div>
+        <div class="main">
+            <div class="filter">
+                <h2>Filters</h2>
+                <form>
+                    <p>Rating</p>
+                    <label>
+                        <input type="radio" id="radio1" name="rating">4 and above
+                    </label>
+                    <label>
+                        <input type="radio" id="radio2" name="rating">Below 4
+                    </label>
+                </form>
+            </div>
+            <div class="menu" id="menu-js">
+                <div class="card" id="card-js">
+                    <img src="/images/rounded.png" alt="recipe" id="dish-img">
+                    <div class="card-content">
+                        <div class="category" id="category-js">Veg</div>
+                        <div class="dandr">
+                            <div class="dish-name"id="dName-js">Russian Salad</div>
+                            <div class="rating">
+                                <img src="/images/Frame 28.png">
+                                <span class="rating-point" id="rating-js">4.5</span>
+                            </div>
+                        </div>
+                        <div class="time-container">
+                            <div class="time" id="time-js">40 min</div>
+                            <div class="icons">                 
+                                <img src="/images/Vector.png" alt="like">
+                                <img src="/images/Vector (1).png" alt="like">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-info">
+                <div class="footer-para">
+                    <img src="/images/Cookpal 1.png" alt="Cookpal">
+                    <div class="cookpal-para">Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</div>
+                </div>
+                <div class="footer-co">
+                    <h2>Company</h2>
+                    <li>Home</li>
+                    <li>Explore</li>
+                    <li>Team</li>
+                    <li>About Us</li>
+                    <li>Activity</li>
+                </div>
+                <div class="footer-re">
+                    <h2>Resources</h2>
+                    <li>Blog</li>
+                    <li>Use Cases</li>
+                    <li>Testimonials</li>
+                    <li>Insights</li>
+                </div>
+                <div class="getInfo">
+                    <img src="/images/Cookpal 1.png" alt="Cookpal">
+                    <div class="getInfo-para">Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</div>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                    <img src="/images/at.png">
+                    <button type="button" id="email-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
